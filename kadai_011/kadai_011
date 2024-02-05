@@ -1,0 +1,14 @@
+lists = ["水" , "金" , "地" , "火" , "木" , "土" , "天" , "海" , "冥"]
+
+for list in lists:
+    print(list)
+
+i = 0
+
+while i < len(lists):
+    if lists[i] == 8:
+      i += 1
+      break
+
+    print(lists[i])
+    i += 1
