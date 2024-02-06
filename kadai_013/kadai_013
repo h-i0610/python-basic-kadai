@@ -1,0 +1,9 @@
+def add_product(price):
+    
+    tax = price * 0.1
+
+    total_price = price + tax
+
+    return total_price
+
+add_product(1000)
