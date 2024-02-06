@@ -1,9 +1,8 @@
-def add_product(price):
+def add_product(price , tax):
     
     tax = price * 0.1
-
     total_price = price + tax
 
     return total_price
 
-add_product(1000)
+add_product(1000,100)
